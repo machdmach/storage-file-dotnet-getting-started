@@ -56,7 +56,7 @@ namespace FileStorage
 
             //create 3 file shares, then show how to list all the file shares in the storage account
             Advanced advancedOps = new Advanced();
-            advancedOps.RunFileStorageAdvancedOpsAsync().Wait();
+            //advancedOps.RunFileStorageAdvancedOpsAsync().Wait();
 
             Console.WriteLine(string.Empty);
             Console.WriteLine("Press any key to exit.");
